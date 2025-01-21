@@ -7,4 +7,12 @@
         <RootNamespace>CurlingCompetitionRegistration.Entitties</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Base\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CurlingCompetitionRegistration.Domain.ValueObjects\CurlingCompetitionRegistration.Domain.ValueObjects.csproj" />
+    </ItemGroup>
+
 </Project>

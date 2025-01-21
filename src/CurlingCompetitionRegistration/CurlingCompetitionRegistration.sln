@@ -8,6 +8,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistrat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Domain.ValueObjects", "Domain\CurlingCompetitionRegistration.Domain.ValueObjects\CurlingCompetitionRegistration.Domain.ValueObjects.csproj", "{FD4A5D45-F083-45C7-8A6B-38860EA9E250}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{06CFFD70-14AA-A959-A3BA-1B15D094E3B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E863E49B-5802-4195-8E9D-71213663EEC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2493012D-DFB1-4F21-86B2-3CA2670A240D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Application.Contracts", "Application\CurlingCompetitionRegistration.Application.Contracts\CurlingCompetitionRegistration.Application.Contracts.csproj", "{10707C2D-66D3-4352-BE5B-2ED65672833B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Application.Abstractions", "Application\CurlingCompetitionRegistration.Application.Abstractions\CurlingCompetitionRegistration.Application.Abstractions.csproj", "{9669746B-DD1A-4249-9797-A7349376AAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Application.Services", "Application\CurlingCompetitionRegistration.Application.Services\CurlingCompetitionRegistration.Application.Services.csproj", "{917CAA9C-5136-430F-BB9E-965B31997B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Application.Repositories.Abstractions", "Application\CurlingCompetitionRegistration.Application.Repositories.Abstractions\CurlingCompetitionRegistration.Application.Repositories.Abstractions.csproj", "{0AE44325-2EF7-42FA-A332-EABA1F45EF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Infrastructure.EntityFramework", "Infrastructure\CurlingCompetitionRegistration.Infrastructure.EntityFramework\CurlingCompetitionRegistration.Infrastructure.EntityFramework.csproj", "{95973B9F-21F4-4997-BB83-F1640FEFFE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Infrastructure.Repositories.Implementation", "Infrastructure\CurlingCompetitionRegistration.Infrastructure.Repositories.Implementation\CurlingCompetitionRegistration.Infrastructure.Repositories.Implementation.csproj", "{364F0665-EB51-419D-BCDE-693845138CA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +44,30 @@ Global
 		{FD4A5D45-F083-45C7-8A6B-38860EA9E250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4A5D45-F083-45C7-8A6B-38860EA9E250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4A5D45-F083-45C7-8A6B-38860EA9E250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10707C2D-66D3-4352-BE5B-2ED65672833B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10707C2D-66D3-4352-BE5B-2ED65672833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10707C2D-66D3-4352-BE5B-2ED65672833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10707C2D-66D3-4352-BE5B-2ED65672833B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9669746B-DD1A-4249-9797-A7349376AAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9669746B-DD1A-4249-9797-A7349376AAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9669746B-DD1A-4249-9797-A7349376AAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9669746B-DD1A-4249-9797-A7349376AAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917CAA9C-5136-430F-BB9E-965B31997B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917CAA9C-5136-430F-BB9E-965B31997B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917CAA9C-5136-430F-BB9E-965B31997B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917CAA9C-5136-430F-BB9E-965B31997B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE44325-2EF7-42FA-A332-EABA1F45EF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE44325-2EF7-42FA-A332-EABA1F45EF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE44325-2EF7-42FA-A332-EABA1F45EF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE44325-2EF7-42FA-A332-EABA1F45EF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95973B9F-21F4-4997-BB83-F1640FEFFE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95973B9F-21F4-4997-BB83-F1640FEFFE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95973B9F-21F4-4997-BB83-F1640FEFFE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95973B9F-21F4-4997-BB83-F1640FEFFE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364F0665-EB51-419D-BCDE-693845138CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364F0665-EB51-419D-BCDE-693845138CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364F0665-EB51-419D-BCDE-693845138CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364F0665-EB51-419D-BCDE-693845138CA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +75,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{31A08CC1-EB8F-4359-A48C-B3092E752675} = {996CEBED-A05B-5D42-3FF0-982E087A2599}
 		{FD4A5D45-F083-45C7-8A6B-38860EA9E250} = {996CEBED-A05B-5D42-3FF0-982E087A2599}
+		{D28EB01E-40B8-44F2-9767-87741E7FA82E} = {06CFFD70-14AA-A959-A3BA-1B15D094E3B1}
+		{10707C2D-66D3-4352-BE5B-2ED65672833B} = {E863E49B-5802-4195-8E9D-71213663EEC7}
+		{9669746B-DD1A-4249-9797-A7349376AAF9} = {E863E49B-5802-4195-8E9D-71213663EEC7}
+		{917CAA9C-5136-430F-BB9E-965B31997B01} = {E863E49B-5802-4195-8E9D-71213663EEC7}
+		{0AE44325-2EF7-42FA-A332-EABA1F45EF0F} = {E863E49B-5802-4195-8E9D-71213663EEC7}
+		{95973B9F-21F4-4997-BB83-F1640FEFFE96} = {2493012D-DFB1-4F21-86B2-3CA2670A240D}
+		{364F0665-EB51-419D-BCDE-693845138CA1} = {2493012D-DFB1-4F21-86B2-3CA2670A240D}
 	EndGlobalSection
 EndGlobal
