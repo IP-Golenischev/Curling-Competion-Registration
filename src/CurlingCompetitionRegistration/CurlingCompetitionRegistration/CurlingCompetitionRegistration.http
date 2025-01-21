@@ -1,0 +1,6 @@
+@CurlingCompetitionRegistration_HostAddress = http://localhost:5028
+
+GET {{CurlingCompetitionRegistration_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
