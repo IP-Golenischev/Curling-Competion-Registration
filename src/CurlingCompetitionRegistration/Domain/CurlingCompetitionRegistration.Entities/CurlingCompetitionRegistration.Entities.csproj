@@ -4,12 +4,8 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>CurlingCompetitionRegistration.Entitties</RootNamespace>
+        <RootNamespace>CurlingCompetitionRegistration.Entities</RootNamespace>
     </PropertyGroup>
-
-    <ItemGroup>
-      <Folder Include="Base\" />
-    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\CurlingCompetitionRegistration.Domain.ValueObjects\CurlingCompetitionRegistration.Domain.ValueObjects.csproj" />

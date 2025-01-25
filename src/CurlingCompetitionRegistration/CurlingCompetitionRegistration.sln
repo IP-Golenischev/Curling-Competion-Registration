@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistrat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Infrastructure.Repositories.Implementation", "Infrastructure\CurlingCompetitionRegistration.Infrastructure.Repositories.Implementation\CurlingCompetitionRegistration.Infrastructure.Repositories.Implementation.csproj", "{364F0665-EB51-419D-BCDE-693845138CA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C4FB8F46-BC6A-4DD6-9574-2C4FB8816CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlingCompetitionRegistration.Common", "Common\CurlingCompetitionRegistration.Common\CurlingCompetitionRegistration.Common.csproj", "{4EC03E7A-06B6-44BB-8400-3682E07AED21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +72,10 @@ Global
 		{364F0665-EB51-419D-BCDE-693845138CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{364F0665-EB51-419D-BCDE-693845138CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{364F0665-EB51-419D-BCDE-693845138CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC03E7A-06B6-44BB-8400-3682E07AED21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC03E7A-06B6-44BB-8400-3682E07AED21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC03E7A-06B6-44BB-8400-3682E07AED21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC03E7A-06B6-44BB-8400-3682E07AED21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +90,6 @@ Global
 		{0AE44325-2EF7-42FA-A332-EABA1F45EF0F} = {E863E49B-5802-4195-8E9D-71213663EEC7}
 		{95973B9F-21F4-4997-BB83-F1640FEFFE96} = {2493012D-DFB1-4F21-86B2-3CA2670A240D}
 		{364F0665-EB51-419D-BCDE-693845138CA1} = {2493012D-DFB1-4F21-86B2-3CA2670A240D}
+		{4EC03E7A-06B6-44BB-8400-3682E07AED21} = {C4FB8F46-BC6A-4DD6-9574-2C4FB8816CAE}
 	EndGlobalSection
 EndGlobal
