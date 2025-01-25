@@ -10,9 +10,4 @@
       <ProjectReference Include="..\..\Common\CurlingCompetitionRegistration.Common\CurlingCompetitionRegistration.Common.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Exceptions\Base\" />
-      <Folder Include="Exceptions\CompetitionPlace\" />
-    </ItemGroup>
-
 </Project>

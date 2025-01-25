@@ -8,12 +8,13 @@ public class Person : EntityBase
 
     protected Person(int id, FullName name)
     {
-        Name = name;
+        Name = name ?? throw new ArgumentNullException(nameof(name));
     }
 
     public Person(FullName name) : this(0, name)
     {
         
     }
+    public override string ToString() => Name.ToString() ?? throw new NullReferenceException();
     
 }
