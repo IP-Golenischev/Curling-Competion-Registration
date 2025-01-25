@@ -12,6 +12,13 @@ public abstract class SimpleValueObject<TValue> : ValueObject, IEquatable<TValue
         return obj.GetType() == GetType() && Equals((SimpleValueObject<TValue>)obj);
     }
 
+    public override bool Equals(IValueObject? other)
+    {
+        if (other is null) 
+            return false;
+        return GetType() == other.GetType() && Equals((SimpleValueObject<TValue>)other);
+    }
+
     public override int GetHashCode() => EqualityComparer<TValue>.Default.GetHashCode(Value ?? throw new NullReferenceException());
 
     public TValue Value { get; }

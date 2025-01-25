@@ -11,4 +11,8 @@
       <ProjectReference Include="..\CurlingCompetitionRegistration.Domain.ValueObjects\CurlingCompetitionRegistration.Domain.ValueObjects.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Exceptions\" />
+    </ItemGroup>
+
 </Project>
